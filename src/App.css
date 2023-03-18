@@ -12,6 +12,17 @@
   }
 }
 
+#bg {
+  position: fixed;
+  background: cover;
+  background: linear-gradient(145deg, #192839 50%, #1ab4e2 115%);
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  z-index: -2;
+}
+
 .waveWrapper {
   overflow: hidden;
   position: absolute;
@@ -28,7 +39,7 @@
   overflow: hidden;
   height: 100%;
   bottom: -1px;
-  background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
+  /* background-image: linear-gradient(to top, #3BBA3F 20%, #393939 80%); */
 }
 
 .bgTop {
